@@ -1,0 +1,59 @@
+# KLX ECU Connector I/O Notes
+
+## Engine Sensors
+
+### Crankshaft Position (CKP +/-)
+
+Stock crank position sensor is 18 tooth, probably a VR sensor of some sort (2 wire). Peak of 3.2 V or higher.
+
+#### Connections
+
+Pin 3 (CKP +)
+Pin 9 (CKP -)
+
+### Throttle Position Sensor (TPS)
+
+Potentiometer connected to +5V and GND. Wiper of the potentiometer is connected to the TPS pin, indicating the throttle position.
+
+Output is 0.58-0.62V at idle, 3.7 to 3.9V at WOT 
+
+#### Connections
+
+Pin 5
+
+### Intake Air Pressure sensor
+
+Wired in a similar way to the TPS, it's connected to +5V and GND. Output is connected to the MAP pin
+
+Output voltage is 2.87V - 2.93V at 101.35 kPa
+
+#### Connections
+
+Pin 6
+
+### Intake Air Temperature Sensor
+
+NTC thermistor, with an internal pullup from the ECU. The following info is based on the service manual, and not actual testing
+
+- 5.4k - 6.6k (avg 6,000) at 0c
+- 0.29k - 0.39k (avg 340) at 80c
+
+Based on averages, that gives a beta value ~3461.29
+
+2.25V - 2.5V (avg 2.375) output at 20c
+
+20c means an approximate resistance of 2528 ohms.
+
+### Coolant Temperature Sensor (CLT)
+
+Resistance spec according to the manual
+
+- -20c : 18.80k +- 2.37k
+- 0c : ~6.544k
+- 40c : 1.136k +- 0.095k
+- 100c : 0.1553k +- 0.0070
+
+Spec voltage of 2.8V-2.97V at 20c
+
+
+

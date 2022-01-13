@@ -1,6 +1,11 @@
 # klxecu
 
-Speeduino based ECM for the fuel injected KLX 250 and 300
+Speeduino based ECM for the fuel injected KLX 250 and 300. *theoretically* compatible with the speeduino NO2C firmware options. It has only one fuel and ignition channel, but adds a few extra features. Some of the features requiring the NO2C expansion board are built in, like fan control.
+
+- control of the check engine/temperature warning lights on the dashboard
+- control of the secondary throttle plate in the intake (handled by a separate ATTiny processor- this isn't "fast idle" like what's supported natively by speeduino)
+- control of the bike's safety switches (also handled by the ATTiny)
+- auxiliary "self diag" pin connected to the speeduino processor
 
 This project borrows from the following:
 

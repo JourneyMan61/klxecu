@@ -7,6 +7,8 @@ Speeduino based ECM for the fuel injected KLX 250 and 300. *theoretically* compa
 - control of the bike's safety switches (also handled by the ATTiny), will pull the mega's reset pin low if you fall over, or try to put the bike in gear when the kickstand is down, etc.
 - auxiliary "self diag" pin connected to the speeduino processor
 
+![klxecu v1](board_image.PNG)
+
 This project borrows from the following:
 
 - [NO2C Speeduino - https://github.com/turboedge/SpeedyBoards](https://github.com/turboedge/SpeedyBoards) for parts of the board design

@@ -15,7 +15,7 @@ Pin 9 (CKP -)
 
 Potentiometer connected to +5V and GND. Wiper of the potentiometer is connected to the TPS pin, indicating the throttle position.
 
-Output is 0.58-0.62V at idle, 3.7 to 3.9V at WOT 
+Output is 0.58-0.62V at idle, 3.7 to 3.9V at WOT. Can calibrate in TunerStudio
 
 #### Connections
 
@@ -26,6 +26,8 @@ Pin 5
 Wired in a similar way to the TPS, it's connected to +5V and GND. Output is connected to the MAP pin
 
 Output voltage is 2.87V - 2.93V at 101.35 kPa
+
+*** will need to calibrate somehow to determine kPa at 0 and 5V
 
 #### Connections
 
@@ -44,6 +46,10 @@ Based on averages, that gives a beta value ~3461.29
 
 20c means an approximate resistance of 2528 ohms.
 
+#### Connections
+
+Pin 25
+
 ### Coolant Temperature Sensor (CLT)
 
 Resistance spec according to the manual
@@ -55,5 +61,18 @@ Resistance spec according to the manual
 
 Spec voltage of 2.8V-2.97V at 20c
 
+#### Connections
 
+Pin 22
+
+### Oxygen Sensor
+
+Bike comes w/ a narrow band oxygen sensor stock.
+
+- 0.8V and up = rich
+- 0.24V and less = lean
+
+#### Connections
+
+Pin 7
 

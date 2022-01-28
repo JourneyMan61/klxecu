@@ -6118,7 +6118,7 @@
     (uuid a4646a71-a41a-457e-b69f-0409bde12e01)
     (property "Reference" "J2" (id 0) (at 156.21 163.83 0))
     (property "Value" "Conn_02x04_Counter_Clockwise" (id 1) (at 156.21 166.37 0))
-    (property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket" (id 2) (at 154.94 172.72 0)
+    (property "Footprint" "mega_2560:vr_conditioner" (id 2) (at 154.94 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 154.94 172.72 0)
@@ -7299,7 +7299,7 @@
       (reference "J1") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/a4646a71-a41a-457e-b69f-0409bde12e01"
-      (reference "J2") (unit 1) (value "Conn_02x04_Counter_Clockwise") (footprint "Package_DIP:DIP-8_W7.62mm_Socket")
+      (reference "J2") (unit 1) (value "Conn_02x04_Counter_Clockwise") (footprint "mega_2560:vr_conditioner")
     )
     (path "/7efd4165-947a-4227-b367-bffed70d4e31"
       (reference "J3") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")

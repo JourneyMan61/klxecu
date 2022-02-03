@@ -110,9 +110,9 @@
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.19999999999999998,
-        "min_via_annular_width": 0.049999999999999996,
+        "min_via_annular_width": 0.19999999999999998,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -358,7 +358,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.1,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -435,15 +435,11 @@
     ],
     [
       "98f72596-e058-4dba-8464-025a303cdc65",
-      "Sensors"
-    ],
-    [
-      "90bd0017-d6a5-4412-a06f-46b4005e5ce6",
-      "Inputs"
+      "Sensors & Inputs"
     ],
     [
       "a01c941e-2669-451e-92d9-4d3556674fec",
-      "Outputs"
+      "Outputs, Fuel, Ignition"
     ]
   ],
   "text_variables": {}

@@ -3,8 +3,8 @@
 Speeduino based ECM for the fuel injected KLX 250 and 300. Firmware compatible with the Speeduino 0.4.4c. It has only one fuel and ignition channel, but adds a few extra features, namely:
 
 - control of the check engine/temperature warning lights on the dashboard
-- control of the secondary throttle plate in the intake (handled by a separate ATTiny processor- this isn't "fast idle" like what's supported natively by speeduino)
-- control of the bike's safety switches (also handled by the ATTiny), will pull the mega's reset pin low if you fall over, or try to put the bike in gear when the kickstand is down, etc.
+- control of the secondary throttle plate in the intake (we'll abuse the open loop idle control built in to the speeduino)
+- control of the bike's safety switches (tbd, might just use some logic gates. currently a DIP8 socket is available on the board for testing)
 - auxiliary "self diag" pin connected to the speeduino processor
 
 ![klxecu v1](board_image.PNG)

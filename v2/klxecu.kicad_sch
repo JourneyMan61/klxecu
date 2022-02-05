@@ -3421,6 +3421,9 @@
     (path "/922de356-c4bd-42c2-890f-69db0a32d48c"
       (reference "#PWR051") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/2192e5aa-e124-41a8-90e8-02cde3a523d9"
+      (reference "#PWR052") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/a01c941e-2669-451e-92d9-4d3556674fec/75126fec-323d-4a00-8d28-b0141aa312d7"
       (reference "A1") (unit 1) (value "Pololu_Breakout_A4988") (footprint "Module:Pololu_Breakout-16_15.2x20.3mm")
     )
@@ -3522,6 +3525,9 @@
     )
     (path "/a01c941e-2669-451e-92d9-4d3556674fec/812391a2-bda3-4c6e-9436-4b9a4185829a"
       (reference "JP2") (unit 1) (value "Jumper_2_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/769f1426-7971-4738-8ad4-fd6cc8405f3b"
+      (reference "JP3") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
     (path "/a01c941e-2669-451e-92d9-4d3556674fec/a246c3a3-766a-4abe-89a4-b39b374a1baf"
       (reference "Q1") (unit 1) (value "SSM3K357R") (footprint "Package_TO_SOT_SMD:SOT-23")

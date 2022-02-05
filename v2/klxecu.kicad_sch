@@ -1703,7 +1703,6 @@
   (no_connect (at 212.09 132.08) (uuid 3fc686e1-14b0-4abe-8f31-3059fcb788d3))
   (no_connect (at 171.45 36.83) (uuid 460b80dc-f22a-4d1c-82c8-cac3095c215d))
   (no_connect (at 158.75 26.67) (uuid 4c3ff66d-7355-481f-816e-6b85a64b2d2c))
-  (no_connect (at 71.12 48.26) (uuid 671f3037-28a5-44a4-863e-811ed1a85083))
   (no_connect (at 158.75 34.29) (uuid 9f9ae33d-e0c8-4a6c-90da-e3ee27412a2a))
   (no_connect (at 58.42 53.34) (uuid aea7a8fa-9176-45b4-9e58-0cbc941819b5))
   (no_connect (at 58.42 60.96) (uuid deea6479-c85a-4046-aa21-c4e3235642d8))
@@ -2103,6 +2102,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "O2S" (shape input) (at 71.12 48.26 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 4cb4d423-c98c-4cf3-89e4-ba07af733f3a)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 77.2826 48.3394 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "CKP-" (shape input) (at 104.14 53.34 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5290454f-b79d-4b3a-9708-a262bd664961)
@@ -2128,6 +2134,13 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 5704ee8b-bd2e-4be4-80c0-dfbe15032897)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 186.805 69.7706 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "O2S-ARD-A8" (shape output) (at 219.71 38.1 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 5cde0f5e-57ed-4359-9411-511bffe2f4fa)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 234.9441 38.0206 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -3265,6 +3278,9 @@
     (path "/a01c941e-2669-451e-92d9-4d3556674fec/e489c717-5092-4740-926b-39fa04498e1a"
       (reference "#PWR047") (unit 1) (value "GND") (footprint "")
     )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/ba3a3e4f-d4a5-47f8-af26-edcfc7202ede"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/a01c941e-2669-451e-92d9-4d3556674fec/75126fec-323d-4a00-8d28-b0141aa312d7"
       (reference "A1") (unit 1) (value "Pololu_Breakout_A4988") (footprint "Module:Pololu_Breakout-16_15.2x20.3mm")
     )
@@ -3324,6 +3340,12 @@
     )
     (path "/a01c941e-2669-451e-92d9-4d3556674fec/0d8f35e0-be80-45d5-9fe8-e9a0758cb7d5"
       (reference "C21") (unit 1) (value "100uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+    )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/836826c5-a09c-468c-b76a-db846e15572a"
+      (reference "C?") (unit 1) (value "0.33uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/db86639b-6847-44b0-bd56-1d0ca68cc2d0"
+      (reference "C?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/f8dcc113-360c-4a3f-b3ce-db2657bf4383"
       (reference "D1") (unit 1) (value "B130-13-F") (footprint "Diode_SMD:D_SMA")
@@ -3435,6 +3457,9 @@
     )
     (path "/a01c941e-2669-451e-92d9-4d3556674fec/ddaccb0b-c946-4d36-878d-4171fafc2df6"
       (reference "R21") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/1b734947-4591-44d6-ba02-cd89adc71133"
+      (reference "R?") (unit 1) (value "470") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/e7efca28-0eae-4ec9-be91-e1da3a3f1517"
       (reference "RV1") (unit 1) (value "Varistor") (footprint "Varistor:RV_Disc_D15.5mm_W4.7mm_P7.5mm")

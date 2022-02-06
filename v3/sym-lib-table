@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "2022-01-10_03-31-18")(type "Legacy")(uri "${KIPRJMOD}/libraries/max9924/2022-01-10_03-31-18.lib")(options "")(descr ""))
+  (lib (name "2022-01-10_15-53-40")(type "Legacy")(uri "${KIPRJMOD}/libraries/lm2941/2022-01-10_15-53-40.lib")(options "")(descr ""))
+  (lib (name "mega_2560")(type "KiCad")(uri "${KIPRJMOD}/libraries/mega_2560/mega_2560.kicad_sym")(options "")(descr ""))
+)

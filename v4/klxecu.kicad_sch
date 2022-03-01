@@ -2534,10 +2534,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "CLUTCH-SW" (shape input) (at 207.01 74.93 180) (fields_autoplaced)
+  (global_label "CLUTCH-ARD-D51" (shape input) (at 207.01 74.93 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f21848e7-e7e9-410d-b423-7eb2f1826e37)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 193.1669 75.0094 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 186.9379 74.8506 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -3383,6 +3383,9 @@
     (path "/66c53c1e-e1fb-42d3-acc9-0649d313b0b2"
       (reference "#PWR015") (unit 1) (value "GND") (footprint "")
     )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/3d86f0fa-0e60-4863-ba29-c0c85017bc4d"
+      (reference "#PWR016") (unit 1) (value "GND") (footprint "")
+    )
     (path "/98f72596-e058-4dba-8464-025a303cdc65/08853ee7-ee30-4eb8-9fd5-85f877d2780a"
       (reference "#PWR017") (unit 1) (value "+5V") (footprint "")
     )
@@ -3578,11 +3581,17 @@
     (path "/a01c941e-2669-451e-92d9-4d3556674fec/bbd45eae-99b8-4293-a4bd-a757e9dc7acf"
       (reference "J5") (unit 1) (value "IGN_ARD_OUT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/4465d8d6-44cc-4706-b07c-4a5a0e286548"
+      (reference "J6") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
     (path "/a01c941e-2669-451e-92d9-4d3556674fec/a7d69894-f3b3-4f69-9136-a30ba4c9b64a"
       (reference "J7") (unit 1) (value "IGN_CONN") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
     (path "/a01c941e-2669-451e-92d9-4d3556674fec/b018d12a-269d-44c4-a1b1-8d7ad395920d"
       (reference "J8") (unit 1) (value "TACH_OUT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/9d64ddb8-4723-4c2f-918d-32a269efe966"
+      (reference "J9") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
     )
     (path "/98f72596-e058-4dba-8464-025a303cdc65/5abfb4a7-b746-40aa-8779-e189eca29e83"
       (reference "JP1") (unit 1) (value "Jumper_3_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
@@ -3604,6 +3613,21 @@
     )
     (path "/a5259932-e723-419f-af03-f1793f0d4cd5"
       (reference "JP7") (unit 1) (value "Jumper_2_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/70c043b9-58b8-4e28-aee8-53d456176d44"
+      (reference "JP8") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/17c587ec-f90e-496b-9d29-3e30ce25c481"
+      (reference "JP9") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/4f510b35-3382-44bb-98c3-ff1c10450230"
+      (reference "JP10") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/28f99b34-5e15-4cf2-95f5-4e3fcbfe49c3"
+      (reference "JP11") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/c32fb5a6-3f52-42b3-8a4b-cc2ffe7bf7ed"
+      (reference "JP12") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/a01c941e-2669-451e-92d9-4d3556674fec/a246c3a3-766a-4abe-89a4-b39b374a1baf"
       (reference "Q1") (unit 1) (value "SSM3K357R") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -3631,6 +3655,9 @@
     )
     (path "/47d87d22-8534-487b-a276-1bcddbc58480"
       (reference "R2") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
+    )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/d8cf82da-4d4e-4bdd-9551-33d82e96b26c"
+      (reference "R3") (unit 1) (value "470") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
     )
     (path "/98f72596-e058-4dba-8464-025a303cdc65/54e1237d-4fb9-43d8-b6da-d31b711bf20a"
       (reference "R4") (unit 1) (value "2.49K") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
@@ -3697,6 +3724,27 @@
     )
     (path "/a01c941e-2669-451e-92d9-4d3556674fec/0b61374a-cf4d-4d2a-ab9e-e9732627e355"
       (reference "U4") (unit 1) (value "TC4424AVPA") (footprint "Package_DIP:DIP-8_W7.62mm_Socket")
+    )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/0ad112f2-a740-44fb-85f3-8fb336794c0a"
+      (reference "U5") (unit 1) (value "74HC4050") (footprint "Package_DIP:DIP-16_W7.62mm_LongPads")
+    )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/5049c04f-e24d-4558-b516-d38f68217582"
+      (reference "U5") (unit 2) (value "74HC4050") (footprint "Package_DIP:DIP-16_W7.62mm_LongPads")
+    )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/13dbb716-4f44-409c-93fa-ed732aa8ba2d"
+      (reference "U5") (unit 3) (value "74HC4050") (footprint "Package_DIP:DIP-16_W7.62mm_LongPads")
+    )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/345bfe3c-a708-4296-a475-9a2b36672c35"
+      (reference "U5") (unit 4) (value "74HC4050") (footprint "Package_DIP:DIP-16_W7.62mm_LongPads")
+    )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/adf1b474-a5ed-4d7d-8bbd-7032617448ee"
+      (reference "U5") (unit 5) (value "74HC4050") (footprint "Package_DIP:DIP-16_W7.62mm_LongPads")
+    )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/a9cc6fdb-1409-4597-8f07-5e119b64fb95"
+      (reference "U5") (unit 6) (value "74HC4050") (footprint "Package_DIP:DIP-16_W7.62mm_LongPads")
+    )
+    (path "/98f72596-e058-4dba-8464-025a303cdc65/f649c06a-975c-4901-a854-2516dd837f8c"
+      (reference "U5") (unit 7) (value "74HC4050") (footprint "Package_DIP:DIP-16_W7.62mm_LongPads")
     )
   )
 )
